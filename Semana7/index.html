@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXUS - Videojuegos Online</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <i class="fas fa-gamepad"></i> NEXUS
+        </div>
+        <nav class="nav-links">
+            <a href="#inicio" class="active">Inicio</a>
+            <a href="#juegos">Juegos</a>
+            <a href="#populares">Populares</a>
+            <a href="#comunidad">Comunidad</a>
+        </nav>
+        <div class="user-actions">
+            <a href="#" class="btn btn-secondary">Iniciar Sesión</a>
+            <a href="#" class="btn btn-primary">Registrarse</a>
+        </div>
+    </header>
+
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <h1>LA MEJOR PLATAFORMA DE JUEGOS ONLINE</h1>
+            <p>Juega al instante con miles de jugadores alrededor del mundo sin descargas adicionales.</p>
+            <a href="#juegos" class="btn btn-primary btn-large">Jugar Ahora</a>
+        </div>
+    </section>
+
+    <section class="games-section" id="juegos">
+        <h2 class="section-title">Categorías Destacadas</h2>
+        <div class="categories">
+            <button class="category-btn active">Todos</button>
+            <button class="category-btn">Acción</button>
+            <button class="category-btn">RPG</button>
+            <button class="category-btn">Estrategia</button>
+            <button class="category-btn">Battle Royale</button>
+        </div>
+
+        <div class="games-grid">
+            <div class="game-card">
+                <div class="game-img-container">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFRIpAew7G0Tncow-fCRuQMAs09KHLy_yvyx4IJ2NKTlgHaY-Azll-XGs5&s=10 "alt="League of Legends">
+                    <span class="tag">GRATIS</span>
+                </div>
+                <div class="game-info">
+                    <h3>League of Legends</h3>
+                    <p>El MOBA competitivo más popular del mundo de 5 contra 5.</p>
+                    <div class="card-footer">
+                        <span class="rating"><i class="fas fa-star"></i> 4.8</span>
+                        <a href="https://www.leagueoflegends.com" target="_blank" class="btn btn-card">Jugar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <div class="game-img-container">
+                    <img src="https://www.riotgames.com/darkroom/1440/8d5c497da1c2eeec8cffa99b01abc64b:5329ca773963a5b739e98e715957ab39/ps-f2p-val-console-launch-16x9.jpg" alt="Valorant">
+                    <span class="tag">POPULAR</span>
+                </div>
+                <div class="game-info">
+                    <h3>Valorant</h3>
+                    <p>Shooter táctico en primera persona con personajes y habilidades únicas.</p>
+                    <div class="card-footer">
+                        <span class="rating"><i class="fas fa-star"></i> 4.9</span>
+                        <a href="https://playvalorant.com" target="_blank" class="btn btn-card">Jugar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <div class="game-img-container">
+                    <img src="https://i.ytimg.com/vi/Z-q-IR8PZ5g/maxresdefault.jpg" alt="Genshin Impact">
+                    <span class="tag">TOP RPG</span>
+                </div>
+                <div class="game-info">
+                    <h3>Genshin Impact</h3>
+                    <p>RPG de acción en mundo abierto con elementos elementales mágicos.</p>
+                    <div class="card-footer">
+                        <span class="rating"><i class="fas fa-star"></i> 4.7</span>
+                        <a href="https://genshin.hoyoverse.com" target="_blank" class="btn btn-card">Jugar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <div class="game-img-container">
+                    <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/730/6328493f4cc4a8fb83e1149be1cac5a7823fe588/capsule_616x353.jpg?t=1789251637" alt="Counter-Strike 2">
+                    <span class="tag">GRATIS</span>
+                </div>
+                <div class="game-info">
+                    <h3>Counter-Strike 2</h3>
+                    <p>El legendario shooter táctico multijugador renovado por completo.</p>
+                    <div class="card-footer">
+                        <span class="rating"><i class="fas fa-star"></i> 4.6</span>
+                        <a href="https://store.steampowered.com/app/730/CounterStrike_2/" target="_blank" class="btn btn-card">Jugar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="logo">
+                    <i class="fas fa-gamepad"></i> NEXUS
+                </div>
+                <p>Tu destino número uno para juegos online multijugador.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Enlaces</h4>
+                <a href="#">Soporte</a>
+                <a href="#">Términos de Servicio</a>
+                <a href="#">Privacidad</a>
+            </div>
+            <div class="footer-socials">
+                <h4>Síguenos</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-discord"></i></a>
+                    <a href="#"><i class="fab fa-twitch"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Josue Gutierrez . Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
